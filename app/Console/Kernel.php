@@ -21,7 +21,7 @@ class Kernel extends ConsoleKernel
     protected function shortSchedule(\Spatie\ShortSchedule\ShortSchedule $shortSchedule)
     {
         // this artisan command will run every second
-        $shortSchedule->command('bomb')->everySecond()->withoutOverlapping();
+        $shortSchedule->command('bomb')->everySecond(0.1)->withoutOverlapping();
     }
 
     /**
