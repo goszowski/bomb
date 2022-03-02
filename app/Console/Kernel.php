@@ -18,6 +18,12 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')->hourly();
     }
 
+    protected function shortSchedule(\Spatie\ShortSchedule\ShortSchedule $shortSchedule)
+    {
+        // this artisan command will run every second
+        $shortSchedule->command('bomb')->everySecond()->withoutOverlapping();
+    }
+
     /**
      * Register the commands for the application.
      *
