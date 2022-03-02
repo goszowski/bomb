@@ -6,7 +6,7 @@ return [
 
     'theards' => 100,
 
-    'timeout' => 1,
+    'timeout' => 5,
 
     'destinations' => [
         ['url'=> 'https://scr.online.sberbank.ru/api/fl/idgib-w-3ds', 'method'=> 'get'],
