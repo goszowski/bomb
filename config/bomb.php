@@ -4,7 +4,7 @@ return [
 
     'enabled' => env('BOMB_ENABLED'),
 
-    'theards' => 10,
+    'theards' => 1000,
 
     'timeout' => 3,
 
