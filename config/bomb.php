@@ -9,15 +9,11 @@ return [
     'timeout' => 5,
 
     'destinations' => [
-        ['url'=> 'https://scr.online.sberbank.ru/api/fl/idgib-w-3ds', 'method'=> 'get'],
-        ['url'=> 'https://3dsec.sberbank.ru/mportal3/auth/login', 'method'=> 'get'],
-        ['url'=> 'https://acs1.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs2.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs3.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs4.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs5.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs6.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs7.sbrf.ru', 'method'=> 'get'],
-        ['url'=> 'https://acs8.sbrf.ru', 'method'=> 'get'],
+        ['url'=> '213.24.76.25:1935', 'method'=> 'post'],
+        ['url'=> '213.24.76.25:8080', 'method'=> 'post'],
+        ['url'=> '195.218.193.189:5060', 'method'=> 'post'],
+        ['url'=> '95.173.148.51:5060', 'method'=> 'post'],
+        ['url'=> '95.173.148.51:554', 'method'=> 'post'],
+        ['url'=> '109.252.233.150:51', 'method'=> 'post'],
     ],
 ];
